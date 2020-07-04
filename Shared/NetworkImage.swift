@@ -9,8 +9,6 @@ import SwiftUI
 
 #if os(macOS)
 import Cocoa
-
-typealias UIImage = NSImage
 #endif
 
 struct NetworkImage: View {
@@ -32,7 +30,7 @@ struct NetworkImage: View {
                 ProgressView()
             } else {
                 #if os(macOS)
-                Image(nsImage: UIImage(data: imageData.data)!)
+                Image(nsImage: NSImage(data: imageData.data)!)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 #else
