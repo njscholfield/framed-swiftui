@@ -13,6 +13,12 @@
 		E495CF2824A8C64600988EDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF1324A8C64500988EDC /* ContentView.swift */; };
 		E495CF2924A8C64600988EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E495CF1424A8C64600988EDC /* Assets.xcassets */; };
 		E495CF2A24A8C64600988EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E495CF1424A8C64600988EDC /* Assets.xcassets */; };
+		E495CF3724A8CC3600988EDC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3624A8CC3600988EDC /* Item.swift */; };
+		E495CF3824A8CC3600988EDC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3624A8CC3600988EDC /* Item.swift */; };
+		E495CF3A24A8DDEF00988EDC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3924A8DDEF00988EDC /* ItemDetail.swift */; };
+		E495CF3B24A8DDEF00988EDC /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3924A8DDEF00988EDC /* ItemDetail.swift */; };
+		E495CF3D24A8EB0E00988EDC /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3C24A8EB0E00988EDC /* NetworkImage.swift */; };
+		E495CF3E24A8EB0E00988EDC /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495CF3C24A8EB0E00988EDC /* NetworkImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		E495CF2124A8C64600988EDC /* Framed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E495CF2324A8C64600988EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E495CF2424A8C64600988EDC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E495CF3624A8CC3600988EDC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E495CF3924A8DDEF00988EDC /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		E495CF3C24A8EB0E00988EDC /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +68,9 @@
 			children = (
 				E495CF1224A8C64500988EDC /* FramedApp.swift */,
 				E495CF1324A8C64500988EDC /* ContentView.swift */,
+				E495CF3924A8DDEF00988EDC /* ItemDetail.swift */,
+				E495CF3C24A8EB0E00988EDC /* NetworkImage.swift */,
+				E495CF3624A8CC3600988EDC /* Item.swift */,
 				E495CF1424A8C64600988EDC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,6 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E495CF2724A8C64600988EDC /* ContentView.swift in Sources */,
+				E495CF3D24A8EB0E00988EDC /* NetworkImage.swift in Sources */,
+				E495CF3A24A8DDEF00988EDC /* ItemDetail.swift in Sources */,
+				E495CF3724A8CC3600988EDC /* Item.swift in Sources */,
 				E495CF2524A8C64600988EDC /* FramedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E495CF2824A8C64600988EDC /* ContentView.swift in Sources */,
+				E495CF3E24A8EB0E00988EDC /* NetworkImage.swift in Sources */,
+				E495CF3B24A8DDEF00988EDC /* ItemDetail.swift in Sources */,
+				E495CF3824A8CC3600988EDC /* Item.swift in Sources */,
 				E495CF2624A8C64600988EDC /* FramedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
